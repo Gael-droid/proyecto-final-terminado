@@ -1,0 +1,70 @@
+
+/* Estilos adicionales para centrar el formulario */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(https://www.xtrafondos.com/wallpapers/textura-de-madera-3425.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px; /* Ajusta el radio de borde para recortar los bordes */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    display: flex; /* Mostrar contenido en línea para mantener las proporciones */
+}
+
+.card-body {
+    padding: 40px;
+    flex: 1; /* Hacer que el formulario ocupe el espacio restante */
+    background: rgba(255, 255, 255, .7); /* Fondo blanco con 70% de opacidad */
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control-user {
+    background: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-user {
+    background: #4e73df;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-user:hover {
+    background: #3757b3;
+}
+
+.alert {
+    margin-top: 20px;
+}
